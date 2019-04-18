@@ -11,7 +11,7 @@ The ceiling contract is a ward on a token contract and limits minting to never s
 behaviour wards of Ceiling 
 interface wards(address usr)
 
-for all
+types
 
     May : uint256
 
@@ -58,7 +58,7 @@ Any owner can add and remove owners.
 behaviour rely-diff of Ceiling 
 interface rely(address usr)
 
-for all
+types
 
     May   : uint256
     Could : uint256
@@ -83,7 +83,7 @@ if
 behaviour rely-same of Ceiling
 interface rely(address usr)
 
-for all
+types
 
     May   : uint256
 
@@ -105,7 +105,7 @@ if
 behaviour deny-diff of Ceiling
 interface deny(address usr)
 
-for all
+types
 
     May   : uint256
     Could : uint256
@@ -130,7 +130,7 @@ if
 behaviour deny-same of Ceiling
 interface deny(address usr)
 
-for all
+types
 
     Could : uint256
 
@@ -153,7 +153,7 @@ if
 behaviour roof of Ceiling 
 interface roof()
 
-for all
+types
 
     Roof : uint256
 
@@ -173,7 +173,7 @@ returns May
 behaviour mint of Ceiling
 interface mint(address usr, uint wad)
 
-for all
+types
      
     Medallion : address MintLike
     Roof      : uint256

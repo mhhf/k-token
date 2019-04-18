@@ -19,4 +19,11 @@ syntax Int ::= "#Ceiling.tkn" [function]
 // doc: address of the Medallion token contract
 // act: 
 rule #Ceiling.tkn => 2
+
+syntax Int ::= "#MintLike.totalSupply" [function]
+// ----------------------------------------------
+// doc: total supply of a token contract
+// act:
+rule #MintLike.totalSupply => 0
+
 ```

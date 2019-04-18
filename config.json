@@ -16,6 +16,7 @@
     },
     
     "MintLike": {
+      "name": "MintLike",
       "solc_output": "./medallion/out/lib.sol.json"
     }
   },
