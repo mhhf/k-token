@@ -1,0 +1,24 @@
+{
+  "name": "k-dss",
+  "url": "https://github.com/lucasvo/k-token/",
+  "src": {
+    "specification": "./src/medallion.md",
+    "smt_prelude": "./src/prelude.smt2.md",
+    "rules": [
+      "./src/storage.k.md",
+      "./src/lemmas.k.md"
+    ]
+  },
+  "implementations": {
+    
+    "Ceiling": {
+      "solc_output": "./medallion/out/ceiling.sol.json"
+    },
+    
+    "MintLike": {
+      "solc_output": "./medallion/out/lib.sol.json"
+    }
+  },
+  "dapp_root": "./medallion",
+  "host": "127.0.0.1:8080"
+}
