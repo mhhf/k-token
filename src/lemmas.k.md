@@ -48,6 +48,11 @@ rule chop(N +Int keccakIntList(L)) => keccakIntList(L) +Int N
 **TODO**: refactor and tidy these.
 
 ```k
+   syntax Int ::= "pow208"
+               |  "pow48"
+   rule pow208 => 411376139330301510538742295639337626245683966408394965837152256 [macro]
+   rule pow48 => 281474976710656 [macro]
+
 syntax Int ::= "MaskLast20" [function]
 syntax Int ::= "MaskFirst6" [function]
 syntax Int ::= "MaskFirst26" [function]
