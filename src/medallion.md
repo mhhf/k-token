@@ -192,4 +192,8 @@ storage Medallion
 iff 
     
     totalSupply 
-```   
+
+    VCallValue == 0
+
+```
+
