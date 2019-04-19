@@ -1,5 +1,5 @@
 {
-  "name": "k-dss",
+  "name": "k-token",
   "url": "https://github.com/lucasvo/k-token/",
   "src": {
     "specification": "./src/medallion.md",
@@ -10,11 +10,11 @@
     ]
   },
   "implementations": {
-    
+
     "Ceiling": {
       "solc_output": "./medallion/out/ceiling.sol.json"
     },
-    
+
     "MintLike": {
       "name": "MintLike",
       "solc_output": "./medallion/out/lib.sol.json"
